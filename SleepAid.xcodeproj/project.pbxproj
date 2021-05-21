@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91E583A26587C0600F01B7B /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D91E583926587C0600F01B7B /* Readme.md */; };
 		D927498226563EEE00AA618F /* SleepAidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D927498126563EEE00AA618F /* SleepAidApp.swift */; };
 		D927498426563EEE00AA618F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D927498326563EEE00AA618F /* ContentView.swift */; };
 		D927498626563EF300AA618F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D927498526563EF300AA618F /* Assets.xcassets */; };
 		D927498926563EF300AA618F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D927498826563EF300AA618F /* Preview Assets.xcassets */; };
 		D927499426563EF400AA618F /* SleepAidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D927499326563EF400AA618F /* SleepAidTests.swift */; };
 		D927499F26563EF400AA618F /* SleepAidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D927499E26563EF400AA618F /* SleepAidUITests.swift */; };
+		D94152092657752A0069745A /* AccelerationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94152082657752A0069745A /* AccelerationManager.swift */; };
+		D941520E26577F100069745A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D941520D26577F100069745A /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D91E583926587C0600F01B7B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		D927497E26563EEE00AA618F /* SleepAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D927498126563EEE00AA618F /* SleepAidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAidApp.swift; sourceTree = "<group>"; };
 		D927498326563EEE00AA618F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		D927499A26563EF400AA618F /* SleepAidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepAidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D927499E26563EF400AA618F /* SleepAidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAidUITests.swift; sourceTree = "<group>"; };
 		D92749A026563EF400AA618F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94152082657752A0069745A /* AccelerationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerationManager.swift; sourceTree = "<group>"; };
+		D941520D26577F100069745A /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		D927497526563EEE00AA618F = {
 			isa = PBXGroup;
 			children = (
+				D91E583926587C0600F01B7B /* Readme.md */,
 				D927498026563EEE00AA618F /* SleepAid */,
 				D927499226563EF400AA618F /* SleepAidTests */,
 				D927499D26563EF400AA618F /* SleepAidUITests */,
@@ -97,6 +104,8 @@
 			children = (
 				D927498126563EEE00AA618F /* SleepAidApp.swift */,
 				D927498326563EEE00AA618F /* ContentView.swift */,
+				D941520D26577F100069745A /* Timer.swift */,
+				D94152082657752A0069745A /* AccelerationManager.swift */,
 				D927498526563EF300AA618F /* Assets.xcassets */,
 				D927498A26563EF300AA618F /* Info.plist */,
 				D927498726563EF300AA618F /* Preview Content */,
@@ -235,6 +244,7 @@
 			files = (
 				D927498926563EF300AA618F /* Preview Assets.xcassets in Resources */,
 				D927498626563EF300AA618F /* Assets.xcassets in Resources */,
+				D91E583A26587C0600F01B7B /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D927498426563EEE00AA618F /* ContentView.swift in Sources */,
+				D94152092657752A0069745A /* AccelerationManager.swift in Sources */,
 				D927498226563EEE00AA618F /* SleepAidApp.swift in Sources */,
+				D941520E26577F100069745A /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import CoreMotion
 
 @main
 struct SleepAidApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

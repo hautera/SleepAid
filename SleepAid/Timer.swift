@@ -60,7 +60,7 @@ class TimerManager: ObservableObject {
     func start(userSelection: NapTimes) {
         //set minutes remaining IF That there state is initial :)
         if self.state == .initial {
-            self.secondsRemaining = userSelection.rawValue //* 60 //commented out 60 for testing/debugging
+            self.secondsRemaining = userSelection.rawValue * 60 //comment out 60 for testing/debugging
         }
         
         //change the timer's state
